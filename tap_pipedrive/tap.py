@@ -21,8 +21,8 @@ from .streams import (
     RecentFilesStream,
     RecentOrganizationsStream,
     RecentPersonsStream,
-    RecentProductsStream,
-    RecentDeleteLogsStream,
+
+
     DealStageChangeStream,
     DealsProductsStream,
 )
@@ -45,8 +45,6 @@ class PipedriveTap(object):
         RecentFilesStream(),
         RecentOrganizationsStream(),
         RecentPersonsStream(),
-        RecentProductsStream(),
-        RecentDeleteLogsStream(),
         DealStageChangeStream(),
         DealsProductsStream(),
     ]
