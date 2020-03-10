@@ -7,4 +7,4 @@ class ActivityTypesStream(PipedriveStream):
     key_properties = [
         "id",
     ]
-    state_field = "update_time"
+    state_field = "add_time"
