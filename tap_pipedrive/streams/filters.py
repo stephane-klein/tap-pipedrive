@@ -7,4 +7,4 @@ class FiltersStream(PipedriveStream):
     key_properties = [
         "id",
     ]
-    state_field = "add_time"
+    state_field = "update_time"
